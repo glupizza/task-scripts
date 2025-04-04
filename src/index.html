@@ -1,7 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <title>Scripts</title>
     </head>
-    <body></body>
+    <body>
+        <!-- Встроенный скрипт -->
+        <script>
+            document.body.append('inline');
+        </script>
+
+        <!-- Синхронный внешний скрипт -->
+        <script src="scripts/sync.js"></script>
+
+        <!-- Асинхронный внешний скрипт -->
+        <script src="scripts/async.js" async></script>
+
+        <!-- Отложенный внешний скрипт -->
+        <script src="scripts/defer.js" defer></script>
+    </body>
 </html>
